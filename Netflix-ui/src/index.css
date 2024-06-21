@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: white;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+body ::-webkit-scrollbar{
+    display: none;
+}
+
+.bgChange{
+    background-color: rgba(0 , 0, 0, 0.5);
+}
+
+input {
+    color: black;
+    &:focus {
+        outline: none;
+    }
+}
