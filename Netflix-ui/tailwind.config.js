@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'black-rgba': 'rgba(0, 0, 0, 0.54)',
+        'clr' : 'rgba(109, 109, 110, 0.7)',
       },
     },
 

@@ -6,6 +6,7 @@
     color: white;
 }
 
+
 body{
     overflow-x: hidden;
     background-color: black;
@@ -17,7 +18,10 @@ body ::-webkit-scrollbar{
 .bgChange{
     background-color: rgba(0 , 0, 0, 0.5);
 }
-
+.background-Img
+{
+    filter: brightness(60%);
+}
 input {
     color: black;
     &:focus {
